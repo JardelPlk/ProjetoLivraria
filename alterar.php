@@ -1,14 +1,16 @@
-<?php//Comandos para mostrar o livro especificado em uma tabela
+<?php
+//Comandos para mostrar o livro especificado em uma tabela
 include("conexao.php");
 $livro = mostrarIdLivro($_POST["id_livro"]);
-//var_dump($livro);utilizado para testar
+//var_dump($livro);Função utilizada para testar
 ?>
-
+<!Comando para aceitar caracteres especiais!>
 <meta charset="UTF-8">
+<!Fomulário utilizado para receber os dados do livro digitados pelo usuário!>
 <form name="dadosLivro" action="conexao.php" method="POST">
     <table border="1">
         <tbody>
-            <!Basicamente temos aqui a mesma estrutura do arquivo inserir mas tendo
+             <!Basicamente temos aqui a mesma estrutura do arquivo inserir mas tendo
             algumas diferenças como o value que vai apresentar o nome da variavel 
             ja existente e o size nas variáveis do tipo texto delimitando o tamanho
             E lembrando que o id não poderá ser alterado!>
@@ -40,4 +42,5 @@ $livro = mostrarIdLivro($_POST["id_livro"]);
             </tr>
         </tbody>
     </table>
+
 </form>

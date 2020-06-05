@@ -57,5 +57,9 @@ $grupo = mostrarLivros();
                 ?>
             </tbody>
         </table>
+
+        <?php
+        // put your code here
+        ?>
     </body>
 </html>

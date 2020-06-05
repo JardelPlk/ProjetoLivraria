@@ -71,7 +71,7 @@ function mostrarIdLivro($id_livro){
     $sql = "SELECT * FROM livro WHERE id_livro =".$id_livro;
     $resultado = $banco->query($sql);
     $banco->close();
-    //Função para associar o resultado da função
+    //Função mais especifica para pegar um elemento
     $livro = mysqli_fetch_assoc($resultado);
     return $livro;
 }
