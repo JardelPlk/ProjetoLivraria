@@ -13,7 +13,7 @@ $livro = mostrarIdLivro($_POST["id_livro"]);
              <!Basicamente temos aqui a mesma estrutura do arquivo inserir mas tendo
             algumas diferenças como o value que vai apresentar o nome da variavel 
             ja existente e o size nas variáveis do tipo texto delimitando o tamanho
-            E lembrando que o id não poderá ser alterado!>
+            E lembrando que o id_livro não poderá ser alterado!>
             <tr>
                 <td>Nome do livro:</td>
                 <td><input type="text" name="nome" value="<?=$livro["nome"]?>" size="50"/></td>

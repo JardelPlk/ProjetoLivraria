@@ -32,7 +32,7 @@ $grupo = mostrarLivros();
                 <?php
                 //Aqui está o conteúdo das colunas da tabela
                 //A função foreach pega todo o conteúdo do array grupo e separa linha por linha
-                //com a variável livro
+                //com a variável livro desta forma
                 foreach ($grupo as $livro){ ?>
                     <tr>
                         <td><?=$livro["id_livro"]?></td>

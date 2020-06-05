@@ -75,7 +75,7 @@ function mostrarIdLivro($id_livro){
     $livro = mysqli_fetch_assoc($resultado);
     return $livro;
 }
-//Esta função é usada para retornar a página inicial
+//Esta função é usada para retornar a página inicial e está no final de algumas funções
 function voltarIndex(){
     header("Location:index.php");
 }
